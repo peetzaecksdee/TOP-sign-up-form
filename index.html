@@ -23,7 +23,7 @@
 					<span class="logo-title">Emperium</span>
 				</div>
 			</section>
-			<section class="hero-main">
+			<section class="hero">
 				<div class="hero-paragraph">
 					<span class="hero-text">
 						This is not a real online service! You know you need something like
@@ -34,34 +34,45 @@
 						<i>You know you want to.</i>
 					</span>
 				</div>
-				<div class="hero-form">
-					<form action="https://httpbin.org/post" method="post">
-						<span class="hero-text">Let's do this!</span>
-						<div class="form-body">
-							<input type="text" name="fname" id="fname" />
-							<label for="fname">First Name</label>
+        <form action="https://httpbin.org/post" method="post">
+          <div class="form-body">
+            <p class="form-title">Let's do this!</p>
+            <div class="form-input">
+              <label for="fname">First Name</label>
+              <input type="text" name="fname" id="fname" />
+            </div>
 
-							<input type="text" name="lname" id="lname" />
-							<label for="lname">Last Name</label>
+            <div class="form-input">
+              <label for="lname">Last Name</label>
+              <input type="text" name="lname" id="lname" />
+            </div>
 
-							<input type="email" name="mail" id="mail" />
-							<label for="mail">Email</label>
+            <div class="form-input">
+              <label for="mail">Email</label>
+              <input type="email" name="mail" id="mail" />
+            </div>
 
-							<input type="tel" name="telnum" id="telnum" />
-							<label for="telnum">Phone Number</label>
+            <div class="form-input">
+              <label for="telnum">Phone Number</label>
+              <input type="tel" name="telnum" id="telnum" />
+            </div>
 
-							<input type="password" name="pass" id="pass" />
-							<label for="pass">Password</label>
+            <div class="form-input">
+              <label for="pass">Password</label>
+              <input type="password" name="pass" id="pass" />
+            </div>
 
-							<input type="password" name="cpass" id="cpass" />
-							<label for="cpass">Confirm Password</label>
-						</div>
-					</form>
-				</div>
-				<div class="hero-buttons">
-					<button type="submit">Create Account</button>
-					<span class="signup-text"></span>
-				</div>
+            <div class="form-input">
+              <label for="cpass">Confirm Password</label>
+              <input type="password" name="cpass" id="cpass" />
+            </div>
+
+          </div>
+          <button type="submit">Create Account</button>
+        </form>
+          <div class="hero-buttons">
+            <span class="signup-text"></span>
+          </div>
 			</section>
 		</main>
 	</body>
