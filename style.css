@@ -1,0 +1,37 @@
+main {
+  display: flex;
+  /* flex-flow: row wrap; */
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Logo section */
+.left {
+  height: 100%;
+  width: 40vw;
+  background-image: url(src/image/Space-Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo {
+  display: flex;
+  /* flex-flow: row wrap; */
+  position: relative;
+  background-color: hsla(0deg, 0%, 0%, 0.2);
+  padding: 1.5rem 0;
+  top: 18vh;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+}
+.logo-title {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 4rem;
+  font-family: "nunito";
+  font-weight: bold;
+}
+.logo-image {
+  width: 6rem;
+}/*# sourceMappingURL=style.css.map */
