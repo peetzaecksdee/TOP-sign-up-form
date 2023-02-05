@@ -62,18 +62,19 @@
 
             <div class="form-input">
               <label for="pass">Password *</label>
-              <input type="password" name="pass" id="pass" class="error" required/>
+              <input type="password" name="pass" id="pass" minlength="8" required/>
+              <span class="error"></span>
             </div>
 
             <div class="form-input">
               <label for="cpass">Confirm Password *</label>
-              <input type="password" name="cpass" id="cpass" class="error" required/>
+              <input type="password" name="cpass" id="cpass" minlength="8" required/>
             </div>
 
           </div>
         </form>
         <div class="hero-bottom">
-          <button type="submit" form="form-post">Create Account</button>
+          <button type="submit" form="form-post" id="submit-btn" disabled>Create Account</button>
           <p class="signup-text">Already have an account? <a href="#">Log in</a></p>
         </div>
 			</section>

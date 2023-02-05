@@ -140,4 +140,9 @@ form {
 }
 .form-input input:invalid {
   border-color: red;
+}
+.form-input .error {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  color: red;
 }/*# sourceMappingURL=style.css.map */
