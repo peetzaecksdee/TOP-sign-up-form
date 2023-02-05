@@ -12,6 +12,7 @@
 		/>
 		<link rel="stylesheet" href="src/css/normalize.css" />
 		<link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
 		<title>Sign up form</title>
 	</head>
 
@@ -40,40 +41,40 @@
           <div class="form-body">
             <span class="form-title">Let's do this!</span>
             <div class="form-input">
-              <label for="fname">First Name</label>
-              <input type="text" name="fname" id="fname" />
+              <label for="fname">First Name *</label>
+              <input type="text" name="fname" id="fname" minlength="3" maxlength="20" pattern="[a-zA-Z0-9_]+" placeholder="geeza" title="The name must not include any special characters." required/>
             </div>
 
             <div class="form-input">
-              <label for="lname">Last Name</label>
-              <input type="text" name="lname" id="lname" />
+              <label for="lname">Last Name *</label>
+              <input type="text" name="lname" id="lname" minlength="3" maxlength="20" pattern="[a-zA-Z0-9_]+" placeholder="ginmama" title="The name must not include any special characters." required/>
             </div>
 
             <div class="form-input">
-              <label for="mail">Email</label>
-              <input type="email" name="mail" id="mail" />
+              <label for="mail">Email *</label>
+              <input type="email" name="mail" id="mail" placeholder="geeza@email.com" required/>
             </div>
 
             <div class="form-input">
-              <label for="telnum">Phone Number</label>
-              <input type="tel" name="telnum" id="telnum" />
+              <label for="telnum">Phone Number *</label>
+              <input type="tel" name="telnum" id="telnum" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="123-456-7890" title="Invalid phone number. Example: 123-456-7890" required/>
             </div>
 
             <div class="form-input">
-              <label for="pass">Password</label>
-              <input type="password" name="pass" id="pass" />
+              <label for="pass">Password *</label>
+              <input type="password" name="pass" id="pass" class="error" required/>
             </div>
 
             <div class="form-input">
-              <label for="cpass">Confirm Password</label>
-              <input type="password" name="cpass" id="cpass" />
+              <label for="cpass">Confirm Password *</label>
+              <input type="password" name="cpass" id="cpass" class="error" required/>
             </div>
 
           </div>
         </form>
         <div class="hero-bottom">
           <button type="submit" form="form-post">Create Account</button>
-          <p class="signup-text">Already have an account? <a>Log in</a></p>
+          <p class="signup-text">Already have an account? <a href="#">Log in</a></p>
         </div>
 			</section>
 		</main>
