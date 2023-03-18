@@ -1,147 +1,147 @@
 main {
-	display: flex;
-	/* flex-flow: row wrap; */
-	width: 100vw;
-	height: 100vh;
+  display: flex;
+  /* flex-flow: row wrap; */
+  width: 100vw;
+  height: 100vh;
 }
 
 /* Logo section */
 .left {
-	height: 100%;
-	width: 40vw;
-	background-image: url(src/image/Space-Background.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+  height: 100%;
+  width: 40vw;
+  background-image: url(src/image/Space-Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo {
-	display: flex;
-	/* flex-flow: row wrap; */
-	position: relative;
-	background-color: hsla(0, 0%, 0%, 0.2);
-	padding: 1.5rem 0;
-	top: 18vh;
-	gap: 1vw;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
+  display: flex;
+  /* flex-flow: row wrap; */
+  position: relative;
+  background-color: hsla(0, 0%, 0%, 0.2);
+  padding: 1.5rem 0;
+  top: 18vh;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 .logo-title {
-	color: hsl(0, 0%, 100%);
-	font-size: 5vh;
-	font-family: "nunito";
-	font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  font-size: 5vh;
+  font-family: "nunito";
+  font-weight: 600;
 }
 .logo-image {
-	width: 8vh;
+  width: 8vh;
 }
 
 /* Main Section */
 .hero {
-	font-family: Nunito;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: hsl(0, 0%, 10%);
-	color: white;
-	width: 60vw;
+  font-family: Nunito;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(0, 0%, 10%);
+  color: white;
+  width: 60vw;
 }
 .hero-paragraph {
-	padding-left: 3vw;
-	font-size: 1.6rem;
-	font-weight: 600;
-	padding-bottom: 48px;
+  padding-left: 3vw;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-bottom: 48px;
 }
 .hero-bottom {
-	padding-left: 3vw;
-	height: 10vh;
-	margin-top: 3rem;
+  padding-left: 3vw;
+  height: 10vh;
+  margin-top: 3rem;
 }
 .hero-bottom button {
-	width: 14rem;
-	height: 3rem;
-	border-radius: 6px;
-	border: none;
-	color: white;
-	background-color: hsl(37, 100%, 33%);
-	box-shadow: 0 10px 20px -4px hsl(0, 0%, 15%);
-	font-weight: bold;
+  width: 14rem;
+  height: 3rem;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background-color: hsl(37, 100%, 33%);
+  box-shadow: 0 10px 20px -4px hsl(0, 0%, 15%);
+  font-weight: bold;
 }
 .hero-bottom button:hover {
-	background-color: hsl(37, 100%, 28%);
+  background-color: hsl(37, 100%, 28%);
 }
 .hero-bottom button:active {
-	background-color: hsl(37, 100%, 24%);
+  background-color: hsl(37, 100%, 24%);
 }
 .hero-bottom .signup-text {
-	font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 .hero-bottom .signup-text a {
-	color: hsl(37, 100%, 33%);
-	font-weight: bold;
-	text-decoration: none;
+  color: hsl(37, 100%, 33%);
+  font-weight: bold;
+  text-decoration: none;
 }
 
 form {
-	padding: 1.5rem 0 2.5rem 3vw;
-	background-color: hsl(0, 0%, 8%);
-	box-shadow: 0 10px 20px -4px hsl(0, 0%, 15%);
+  padding: 1.5rem 0 2.5rem 3vw;
+  background-color: hsl(0, 0%, 8%);
+  box-shadow: 0 10px 20px -4px hsl(0, 0%, 15%);
 }
 
 .form {
-	font-family: Nunito;
+  font-family: Nunito;
 }
 .form-title {
-	width: 100%;
-	font-size: 1.6rem;
-	font-weight: 600;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 .form-body {
-	display: flex;
-	height: 100%;
-	flex-wrap: wrap;
-	border: 5px hsl(0, 0%, 100%);
-	gap: 20px;
-	border-bottom: 50px;
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  border: 5px hsl(0, 0%, 100%);
+  gap: 20px;
+  border-bottom: 50px;
 }
 .form-input {
-	display: flex;
-	flex-flow: column wrap;
-	width: 40%;
-	font-size: 1rem;
-	text-transform: uppercase;
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 .form-input > input:focus {
-	opacity: 100%;
+  opacity: 100%;
 }
 .form-input > input {
-	opacity: 50%;
+  opacity: 50%;
 }
 .form-input input {
-	background: none;
-	border: 1px solid hsla(221, 36%, 68%, 0.4);
-	border-radius: 4px;
-	height: 1.8rem;
-	width: 18rem;
-	color: white;
+  background: none;
+  border: 1px solid hsla(221, 36%, 68%, 0.4);
+  border-radius: 4px;
+  height: 1.8rem;
+  width: 18rem;
+  color: white;
 }
 .form-input input:focus {
-	outline: none;
-	border-color: #8fa2ca;
-	box-shadow: 0 10px 20px -4px hsl(0, 0%, 15%);
+  outline: none;
+  border-color: #8FA2CA;
+  box-shadow: 0 10px 20px -4px hsl(0, 0%, 15%);
 }
 .form-input label {
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	user-select: none;
-	position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: relative;
 }
 .form-input input:invalid {
-	border-color: red;
+  border-color: red;
 }
 .form-input .error {
-	text-transform: capitalize;
-	font-size: 0.8rem;
-	color: red;
-} /*# sourceMappingURL=style.css.map */
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  color: red;
+}/*# sourceMappingURL=style.css.map */
